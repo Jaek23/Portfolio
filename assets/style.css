@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background:gray;
+    background: grey;
     height:70px;
     display:flex;
     justify-content: space-between;
@@ -19,7 +19,7 @@ header h1{
     background:#87CEEB;
     color:gray;
     font-size: xx-large;
-    width:30vh;
+    width:35vh;
     height:50px;
     display:flex;
     justify-content:end;
@@ -37,14 +37,18 @@ header h1{
 .header-nav a{
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    color:#87CEEB;
+    color:#87CEEB ;
     font-size:large;
+}
+
+.header-nav a:hover{
+    color: #fff;
 }
 
 .image-section{
     width:100%;
     height:200px;
-    background-image: url(skyblue.jpg);
+    background-image: url(newblue.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -56,48 +60,68 @@ header h1{
 
 .header-image-text{
     margin-right: 50px;
-    width:15vw;
-    height:50px;
+    width:20vw;
+    height:70px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: xx-large;
     word-spacing: 5px;
     margin-bottom: 15px;
-    color:grey;
+    color:#4169E1;
     background:#87CEEB ;
+    font-weight: bold;
 }
 
 .main-section{
     display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+    justify-content:center;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:50px;
 }
 
 .main-section h2{
-    width: 100%;
-    max-width:120px;
-    font-size: xx-large;
-    margin-right: 20px;
+    margin-right:5px;
     color:	#4169E1;
+    width:220px;
+    text-align: end;
+    font-size: 50px;
 }
 
 .main-section p{
-    width:60vw;
+    width:80vw;
     margin-left: 20px;
     color:	#4169E1;
+    display: flex;
+    align-items: center;
 }
 
+.main-images{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+    height:80vh;
+}
+
+img:hover{
+    -webkit-filter: blur(5px);
+   
+}
 .main-section img{
-    height:20vh;
-    width:20vw;
-    border:5px solid #87CEEB;
+    height:25vh;
+    width:25vw;
+    border:5px solid skyblue;
+    margin-top: 15px;
+    margin-left:15px;
+    border-radius: 15px;
 }
 
 #image-1{
-    margin-left:20px;
+    width: 50vw;
 }
-
 #main-section-1{
     margin-top:20px;
 }
@@ -106,12 +130,20 @@ header h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60vw;
+    width: 80vw;
     margin-left: 20px;
 }
 
+.main-section ul li a:hover{
+    border:1px solid black;
+    padding:5px;
+    border-radius: 15px;
+    background: skyblue;
+    text-decoration: none;
+}
+
 .line{
-    border-left:2px solid #87CEEB;
+    border-left:3px solid #87CEEB;
 }
 
 main{
@@ -124,4 +156,21 @@ main{
     text-decoration-thickness: 3px;
     font-size:large;
     color:	#4169E1;
+}
+
+
+#last-section{
+    height:20vh;
+    margin-bottom: 100px;
+}
+
+
+@media screen and (max-width:992px){
+    .main-section{
+        width:100%;
+    }
+
+    .header-image-text{
+        width:100%;
+    }
 }
