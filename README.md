@@ -11,3 +11,11 @@ N/A
 
 ## License 
 Please refer to the license in the rep.
+
+## Screnshot of Webpage 
+![portfolio](https://github.com/Jaek23/module-challenge-2/assets/141678374/afd32baf-6549-4767-b39c-13ee1033e694)
+
+## Link to Webpage
+https://jaek23.github.io/module-challenge-2/
+
+
